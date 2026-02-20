@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Categoria — Preview</title>
+    <link rel="stylesheet" href="../wp-content/themes/hotelequip-clean/style.css" />
+    <link rel="stylesheet" href="../wp-content/themes/hotelequip-clean/assets/css/theme.css" />
+  </head>
+  <body>
+    <header class="hc-header">
+      <div class="hc-container">
+        <div class="hc-headerInner">
+          <div class="hc-brand">
+            <a href="./index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;">
+              <span class="hc-brandMark" aria-hidden="true"></span>
+              <span class="hc-brandText"><strong>Hotelequip</strong><span>Equipamentos profissionais</span></span>
+            </a>
+          </div>
+          <form class="hc-search" onsubmit="return false;">
+            <span aria-hidden="true">⌕</span>
+            <input type="search" placeholder="Pesquisar nesta categoria…" />
+          </form>
+          <div class="hc-actions">
+            <a class="hc-btn" href="./index.html">Home</a>
+            <a class="hc-btn hc-btn--primary" href="./cart.html">Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="hc-main">
+      <div class="hc-container">
+        <div class="hc-card" style="padding:16px;margin-bottom:16px;">
+          <h1 style="margin:0 0 6px;">Bar &amp; Cafetaria</h1>
+          <p style="margin:0;color:var(--hc-muted);">Filtros úteis, ordenação clara e cards limpos para comparar rapidamente.</p>
+        </div>
+
+        <div class="hc-grid">
+          <aside class="hc-col-5 hc-card" style="padding:16px;">
+            <div class="hc-pill">Filtros</div>
+            <div style="margin-top:12px;display:grid;gap:10px;">
+              <label style="display:grid;gap:6px;">
+                <span style="color:var(--hc-muted);font-size:13px;">Marca</span>
+                <select style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);">
+                  <option>Qualquer</option>
+                  <option>ARILEX</option>
+                  <option>CASSELIN</option>
+                </select>
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span style="color:var(--hc-muted);font-size:13px;">Preço</span>
+                <input type="range" min="0" max="5000" value="2500" />
+              </label>
+              <button class="hc-btn hc-btn--primary" type="button">Aplicar</button>
+            </div>
+          </aside>
+
+          <section class="hc-col-7">
+            <div class="hc-card" style="padding:12px 14px;margin-bottom:14px;display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap;">
+              <div class="hc-pill">1278 produtos</div>
+              <div style="display:flex;gap:10px;align-items:center;">
+                <span style="color:var(--hc-muted);font-size:13px;">Ordenar</span>
+                <select style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);">
+                  <option>Mais relevantes</option>
+                  <option>Preço (asc)</option>
+                  <option>Preço (desc)</option>
+                </select>
+              </div>
+            </div>
+
+            <ul class="products columns-4" style="padding:0;">
+              <li class="product" style="grid-column: span 4;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='650'%3E%3Crect width='100%25' height='100%25' fill='%23111f3a'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23e9eefc' opacity='.65' font-family='Arial' font-size='28'%3EProduto%3C/text%3E%3C/svg%3E" alt="Produto" />
+                <h2 class="woocommerce-loop-product__title">Torradeira elétrica horizontal</h2>
+                <span class="price">189,00 €</span>
+                <a class="button alt" href="./product.html">Ver detalhes</a>
+              </li>
+              <li class="product" style="grid-column: span 4;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='650'%3E%3Crect width='100%25' height='100%25' fill='%23111f3a'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23e9eefc' opacity='.65' font-family='Arial' font-size='28'%3EProduto%3C/text%3E%3C/svg%3E" alt="Produto" />
+                <h2 class="woocommerce-loop-product__title">Máquina de sumos</h2>
+                <span class="price">499,00 €</span>
+                <a class="button alt" href="./product.html">Ver detalhes</a>
+              </li>
+              <li class="product" style="grid-column: span 4;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='650'%3E%3Crect width='100%25' height='100%25' fill='%23111f3a'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23e9eefc' opacity='.65' font-family='Arial' font-size='28'%3EProduto%3C/text%3E%3C/svg%3E" alt="Produto" />
+                <h2 class="woocommerce-loop-product__title">Vitrine refrigerada</h2>
+                <span class="price">2.190,00 €</span>
+                <a class="button alt" href="./product.html">Ver detalhes</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+

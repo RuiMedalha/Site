@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checkout — Preview</title>
+    <link rel="stylesheet" href="../wp-content/themes/hotelequip-clean/style.css" />
+    <link rel="stylesheet" href="../wp-content/themes/hotelequip-clean/assets/css/theme.css" />
+  </head>
+  <body class="woocommerce-checkout">
+    <header class="hc-header">
+      <div class="hc-container">
+        <div class="hc-headerInner">
+          <div class="hc-brand">
+            <a href="./index.html" style="display:flex;align-items:center;gap:12px;text-decoration:none;">
+              <span class="hc-brandMark" aria-hidden="true"></span>
+              <span class="hc-brandText"><strong>Hotelequip</strong><span>Checkout seguro</span></span>
+            </a>
+          </div>
+          <div class="hc-actions">
+            <a class="hc-btn" href="./cart.html">Voltar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="hc-main">
+      <div class="hc-container">
+        <div class="hc-grid">
+          <section class="hc-col-7 hc-card" style="padding:16px;">
+            <h1 style="margin:0 0 12px;">Finalizar compra</h1>
+            <div class="hc-pill">Dados de faturação</div>
+            <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span style="color:var(--hc-muted);font-size:13px;">Nome</span>
+                <input style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);" placeholder="Nome" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span style="color:var(--hc-muted);font-size:13px;">Apelido</span>
+                <input style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);" placeholder="Apelido" />
+              </label>
+              <label style="display:grid;gap:6px;grid-column:1 / -1;">
+                <span style="color:var(--hc-muted);font-size:13px;">Email</span>
+                <input style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);" placeholder="email@exemplo.pt" />
+              </label>
+              <label style="display:grid;gap:6px;grid-column:1 / -1;">
+                <span style="color:var(--hc-muted);font-size:13px;">Morada</span>
+                <input style="padding:10px;border-radius:12px;border:1px solid var(--hc-border);background:rgba(255,255,255,.03);color:var(--hc-text);" placeholder="Rua, nº, etc." />
+              </label>
+            </div>
+
+            <div class="hc-pill" style="margin-top:16px;">Pagamento</div>
+            <div style="margin-top:12px;display:grid;gap:10px;">
+              <label style="display:flex;gap:10px;align-items:center;">
+                <input type="radio" checked />
+                <span>Cartão / Klarna</span>
+              </label>
+              <label style="display:flex;gap:10px;align-items:center;">
+                <input type="radio" />
+                <span>Multibanco</span>
+              </label>
+            </div>
+          </section>
+
+          <aside class="hc-col-5 hc-card" style="padding:16px;">
+            <div class="hc-pill">Resumo</div>
+            <div style="margin-top:12px;display:grid;gap:10px;">
+              <div style="display:flex;justify-content:space-between;gap:10px;">
+                <span style="color:var(--hc-muted);">Subtotal</span>
+                <strong>3.967,50 €</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;gap:10px;">
+                <span style="color:var(--hc-muted);">Envio</span>
+                <strong>Grátis</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--hc-border);padding-top:10px;">
+                <span>Total</span>
+                <strong>3.967,50 €</strong>
+              </div>
+              <button class="hc-btn hc-btn--primary" type="button">Pagar em segurança</button>
+              <p style="margin:0;color:var(--hc-muted);font-size:13px;">
+                Ao finalizar, aceitas os termos e políticas.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
