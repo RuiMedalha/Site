@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelEquip | Equipamentos para Hotéis e Restaurantes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">HotelEquip</a>
+      <ul class="nav-links">
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-icon" aria-label="Pesquisar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+        </button>
+        <button class="btn-icon" aria-label="Carrinho">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-badge">Nova Coleção 2025</span>
+        <h1>Equipamento profissional para o seu estabelecimento</h1>
+        <p>Da cozinha industrial à roupa de cama — tudo o que precisa para destacar o seu hotel ou restaurante.</p>
+        <div class="hero-actions">
+          <a href="#produtos" class="btn btn-primary">Ver Catálogo</a>
+          <a href="#contacto" class="btn btn-secondary">Solicitar Orçamento</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card hero-card-1">
+          <span>Cozinha Industrial</span>
+        </div>
+        <div class="hero-card hero-card-2">
+          <span>Roupa de Cama</span>
+        </div>
+        <div class="hero-card hero-card-3">
+          <span>Amenidades</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="categorias" class="categories">
+      <h2>Categorias</h2>
+      <div class="categories-grid">
+        <a href="#" class="category-card">
+          <div class="category-icon">🍳</div>
+          <h3>Cozinha</h3>
+          <p>Fogões, fornos, frigoríficos</p>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">🛏️</div>
+          <h3>Alojamento</h3>
+          <p>Roupa de cama, almofadas</p>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">🧴</div>
+          <h3>Amenidades</h3>
+          <p>Produtos de higiene</p>
+        </a>
+        <a href="#" class="category-card">
+          <div class="category-icon">🪑</div>
+          <h3>Mobiliário</h3>
+          <p>Mesas, cadeiras, armários</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="produtos" class="products">
+      <h2>Produtos em Destaque</h2>
+      <div class="products-grid">
+        <article class="product-card">
+          <div class="product-image">Fogão 6 Bicos</div>
+          <h3>Fogão Industrial 6 Bicos</h3>
+          <p class="product-price">€ 1.249,00</p>
+          <button class="btn btn-small">Adicionar</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image">Jogo de Cama</div>
+          <h3>Jogo de Cama Hotel 200 Fios</h3>
+          <p class="product-price">€ 89,90</p>
+          <button class="btn btn-small">Adicionar</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image">Frigorífico</div>
+          <h3>Frigorífico Industrial 500L</h3>
+          <p class="product-price">€ 2.199,00</p>
+          <button class="btn btn-small">Adicionar</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image">Amenidades</div>
+          <h3>Kit Amenidades Hotel 5 Peças</h3>
+          <p class="product-price">€ 4,50</p>
+          <button class="btn btn-small">Adicionar</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="about-content">
+        <h2>+25 anos a equipar a hotelaria portuguesa</h2>
+        <p>Somos especialistas em equipamento profissional para hotéis, restaurantes e unidades de alojamento. Qualidade, variedade e um serviço personalizado ao seu dispor.</p>
+        <ul class="about-stats">
+          <li><strong>5000+</strong> clientes satisfeitos</li>
+          <li><strong>15.000+</strong> produtos no catálogo</li>
+          <li><strong>24h</strong> entrega em todo o país</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <h2>Contacte-nos</h2>
+      <p>Precisa de ajuda ou um orçamento personalizado? Estamos aqui.</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensagem" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo">HotelEquip</a>
+        <p>Equipamentos profissionais para hotelaria</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Catálogo</a>
+        <a href="#">Marcas</a>
+        <a href="#">Condições</a>
+        <a href="#">Privacidade</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 HotelEquip. Demo criado como showcase.</p>
+  </footer>
+</body>
+</html>
